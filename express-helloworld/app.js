@@ -13,6 +13,10 @@ app.get('/venus', function (req, res) {
   res.send('Hello Venus!\n');
 });
 
+app.get('/pluto', function (req, res) {
+  res.send('Hello Pluto!\n');
+});
+
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
